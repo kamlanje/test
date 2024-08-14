@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>MY ONLY LIBRARY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+        <header>
+    
+            <h2 class="logo">LOGO</h2>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+    <body style=" background-color: blue;"
+                    <input type="search" value="" id="search" onchange="openPage()">
+                
+        </header>
+    
+    
+    <label>
+        <input type="checkbox">
+        <div class="toggle">
+            <span class="top_line"></span>
+            <span class="middle_line"></span>
+            <span class="buttom_line"></span>
+        </div>
+
+        <div class="slide">
+            <h1>MENU</h1>
+            <ul>
+                <li><a href="#"><i class="fas fa-tv"></i>dashboard</a></li>
+                <li><a href="#"><i class="fas fa-tv"></i>dashboard</a></li>
+                <li><a href="#"><i class="fas fa-tv"></i>dashboard</a></li>
+                <li><a href="#"><i class="fas fa-tv"></i>dashboard</a></li>
+                <li><a href="#"><i class="fas fa-tv"></i>dashboard</a></li>
+                <li><a href="#"><i class="fas fa-tv"></i>dashboard</a></li>
+            </ul>
+        </div>
+        <p>Thin-Man Tekesa</p>
+        <p><img decoding="async" class="aligncenter" src="Thin-Man Tekesa.jpg" alt="20px" width="276" height="291" srcset="Thin-Man Tekesa.jpg" sizes="(max-width: 895px) 100vw, 895px"></a></p>
+<a href="BIO PASTPAPERS Qs&As.pdf" download="BIO PASTPAPERS Qs&As.pdf">Download!</a>
+        <p></p>
+        <p>
+            <div><audio controls=source src="Thin-Man Tekesa.mp3"></audio></div><p><button>DOWNLOAD MP3</button></p>
+    </label>
+</body>
+<style>
+.logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+}  
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+</style>
+<script>
+    function openPage() {
+        var x = document.getElementById("search").value;
+        if (x === "dog"){
+            window.open("/music.html");
+        }
+
+        if ( x === "car"){
+            window.open("/music.html");
+        }
+    }
+</script>
+</html>
